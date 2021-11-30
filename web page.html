@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government Polytechnic Bhagalpur</title>
+    <link rel="shortcut icon" href="collegelogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="slidshow.css">
+
+
+
+</head>
+
+<header>
+
+    <!-- nav bar start -->
+    <nav>
+        <ul>
+
+            <li><a href="#home">Home</a></li>
+            <li><a href="#">Department</a></li>
+            <li><a href="#">Placement</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="form1.html">Registration</a></li>
+            <li><a href="login.html">login</a></li>
+
+
+        </ul>
+    </nav>
+
+    <!-- nav bar end -->
+    <img src="collegelogo.png" alt="collegelogo" style="left: 1px;width:100px;height:100px;float:left">
+    <h1>Government Polytechnic Bhagalpur</h1>
+    Department of Science and Technology, Government of Bihar <br>
+    Affiliated to State Board of Technical Education, Bihar, Patna <br>
+    Established 1955 <br>
+    Barari, Bhagalpur, Bihar 812003
+    <hr style="border-color: rgb(156, 35, 35);height: 2px;background-color: rgb(75, 75, 71);">
+    <br><br>
+</header>
+
+<body>
+
+    <!-- slid show -->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 6</div>
+            <img src="gpp1.jpg" style="width:100%;height: 650px;">
+            <div class="text">College Photo</div>
+        </div>
+
+
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 6</div>
+            <img src="sl1.jpeg" style="width:100%; height: 600px;">
+            <div class="text">Pic with Guddu sir</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 6</div>
+            <img src="sl2.jpeg" style="width:100%;height: 650px;">
+            <div class="text">Pic with priyanka mam</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 6</div>
+            <img src="sl3.jpeg" style="width:100%;height: 650px;">
+            <div class="text">Pic With prachi miss</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 6</div>
+            <img src="sl4.jpeg" style="width:100%;height: 650px;">
+            <div class="text">Pic with sima mam</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 6</div>
+            <img src="sl5.jpeg" style="width:100%;height: 650px;">
+            <div class="text">Pic with PN sir</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+    <!-- slid show end -->
+    <br><br>
+
+
+    <section style="float: left;
+    
+    background-color:rgb(241, 204, 204);
+    height: 400px;">
+        <h2>About GP Bhagalpur</h2>
+        <p>Government Polytechnic, Bhagalpur was established as Bhagalpur School of Engineering with aim of providing
+            quality higher education in the field of Engineering & Technology on par with National Standards. It
+            persistently seeks and adopts innovative methods to improve the quality of higher education on a consistent
+            basis.
+
+            It is spread in an area of nearly 50 acreswith four lush green campuses namely Main Campus, Kanchangarh
+            Campus,ShreeBhawan Campus and Lakshmi BhawanCampus, not far from the bank of the River Ganga at Barari.It is
+            situated at a distance of nearly 9 Km East to Bhagalpur Railway Station and 20 Km North to Naugachhia
+            Railway Station. The Latitudes and Longitudes are 25.2599ON and 87.0274OE.
+
+            The Institution was established on 31st May 1955 with its name Bhagalpur School of Engineering under the
+            Department of Science and Technology, Govt. of Bihar which was later rechristened to its present
+            name.Initially Institution was started with Diploma in Civil Engineering with 30 intake capacity, which was
+            later increased to 60.Diploma in Agricultural Engineering was started in 1977 with 20 intake capacity, which
+            was later increased to 30.In 1992, Diploma in Textile Technology & Textile Design was started with 30 intake
+            capacity and the branch was renamed as Diploma in Textile Engineering in the year of 2008.Two latest and
+            employment generating Diploma in Electronics Engineering and Diploma in Computer Science & Engineering were
+            commenced with intake capacity of 60 each.</p>
+
+
+    </section>
+
+</body>
+
+</html>
